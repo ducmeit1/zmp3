@@ -2,9 +2,9 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/ducmeit1/simple-cli-at-golang/pkg"
-	"github.com/ducmeit1/simple-cli-at-golang/pkg/common"
-	"github.com/ducmeit1/simple-cli-at-golang/pkg/zingmp3"
+	"github.com/ducmeit1/zmp3/pkg"
+	"github.com/ducmeit1/zmp3/pkg/common"
+	"github.com/ducmeit1/zmp3/pkg/zingmp3"
 	"github.com/spf13/cobra"
 	"strings"
 )

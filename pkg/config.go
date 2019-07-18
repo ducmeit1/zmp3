@@ -1,8 +1,8 @@
 package pkg
 
 import (
-	"github.com/ducmeit1/simple-cli-at-golang/pkg/common"
-	"github.com/ducmeit1/simple-cli-at-golang/pkg/zingmp3"
+	"github.com/ducmeit1/zmp3/pkg/common"
+	"github.com/ducmeit1/zmp3/pkg/zingmp3"
 	"github.com/mitchellh/go-homedir"
 	"github.com/spf13/viper"
 	"os"

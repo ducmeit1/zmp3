@@ -1,6 +1,6 @@
 package main
 
-import "github.com/ducmeit1/simple-cli-at-golang/cmd"
+import "github.com/ducmeit1/zmp3/cmd"
 
 func main() {
 	cmd.Execute()

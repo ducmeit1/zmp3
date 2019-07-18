@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/ducmeit1/simple-cli-at-golang/pkg/common"
+	"github.com/ducmeit1/zmp3/pkg/common"
 	"io/ioutil"
 	"net/http"
 	"net/url"

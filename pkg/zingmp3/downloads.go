@@ -3,7 +3,7 @@ package zingmp3
 import (
 	"fmt"
 	"github.com/cheggaaa/pb/v3"
-	"github.com/ducmeit1/simple-cli-at-golang/pkg/common"
+	"github.com/ducmeit1/zmp3/pkg/common"
 	"io"
 	"net/http"
 	"os"

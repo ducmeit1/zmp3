@@ -1,4 +1,4 @@
-module github.com/ducmeit1/simple-cli-at-golang
+module github.com/ducmeit1/zmp3
 
 go 1.12
 

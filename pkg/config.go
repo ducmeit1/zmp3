@@ -33,6 +33,7 @@ type Config struct {
 	Directory  string `json:"directory"`
 }
 
+//Check existence of the configuration file
 func IsConfigFileExist() bool {
 	if fi, err := os.Stat(path.Join(HomeDirectory, configFile)); err != nil || fi.IsDir() {
 		return false
@@ -40,6 +41,7 @@ func IsConfigFileExist() bool {
 	return true
 }
 
+//Read the configuration
 func ReadConfigFile() (*Config, error) {
 	viper.SetConfigFile(path.Join(HomeDirectory, configFile))
 	err := viper.ReadInConfig()
@@ -54,6 +56,7 @@ func ReadConfigFile() (*Config, error) {
 	}, nil
 }
 
+//Check valid data of the configuration after read successfully
 func (cfg *Config) IsValidConfig() error {
 	if err := IsValidMP3Quality(cfg.Mp3Quality); err != nil {
 		return err
@@ -80,10 +83,12 @@ func IsValidMP4Quality(quality int64) error {
 	return nil
 }
 
+//Get absolutely path of download folder
 func (cfg *Config) GetDownloadFolder() string {
 	return path.Join(HomeDirectory, cfg.Directory)
 }
 
+//Make download directory if it not exist
 func (cfg *Config) CreateDownloadFolderIfNotExist() {
 	downloadFolder := cfg.GetDownloadFolder()
 	if _, err := os.Stat(downloadFolder); err != nil {
@@ -94,6 +99,7 @@ func (cfg *Config) CreateDownloadFolderIfNotExist() {
 	}
 }
 
+//Write data of config to the configuration file
 func WriteConfigFile(cfg *Config) error {
 	_, err := os.Create(path.Join(HomeDirectory, configFile))
 	if err != nil {
@@ -107,6 +113,7 @@ func WriteConfigFile(cfg *Config) error {
 	return viper.WriteConfig()
 }
 
+//Write default config into the configuration file
 func WriteDefaultConfig() error {
 	return WriteConfigFile(&Config{
 		Mp3Quality: defaultMP3Quality,

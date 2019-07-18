@@ -44,8 +44,8 @@ var downloadSongCmd = &cobra.Command{
 
 var downloadVideoCmd = &cobra.Command{
 	Use:   "video",
-	Short: "Download MP3 video from Zing MP3",
-	Long:  "Download MP3 video from Zing MP3",
+	Short: "Download MP4 video from Zing MP3",
+	Long:  "Download MP4 video from Zing MP3",
 	PreRunE: func(cmd *cobra.Command, args []string) error {
 		if !pkg.IsConfigFileExist() {
 			err := pkg.WriteDefaultConfig()

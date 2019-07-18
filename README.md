@@ -1,9 +1,9 @@
-#DOWNLOAD SONG & VIDEO FROM ZING MP3
+> This is open source project and has posted on Medium at: https://medium.com/@ducmeit/make-a-great-downloader-cli-by-cobra-viper-promptui-at-golang-f6408434cafa
 
 zmp3 is a CLI tool helps you download highest quality of music and video on https://mp3.zing.vn for free
 
 - Installing: `go install github.com/ducmeit1/zmp3`
-
+- Downloading at: `https://github.com/ducmeit1/zmp3/releases/download/1.0/zmp3.exe`
 - CLI:
 ![Demo](png/demo.png)
 

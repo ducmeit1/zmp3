@@ -2,6 +2,7 @@
 
 zmp3 is a CLI tool helps you download highest quality of music and video on https://mp3.zing.vn for free
 
+- Notice: Use can download binary file `zmp3` to use as a console application
 - Programing language: Go
 - Dependencies:
     - Cobra

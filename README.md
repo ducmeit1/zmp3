@@ -3,7 +3,7 @@
 zmp3 is a CLI tool helps you download highest quality of music and video on https://mp3.zing.vn for free
 
 - Installing: `go install github.com/ducmeit1/zmp3`
-- Downloading at: `https://github.com/ducmeit1/zmp3/releases/download/1.0/zmp3.exe`
+- Downloading at: `https://github.com/ducmeit1/zmp3/releases`
 - CLI:
 ![Demo](png/demo.png)
 
@@ -47,6 +47,8 @@ zmp3 is a CLI tool helps you download highest quality of music and video on http
     - Download Song
     - Download Video
     - Set custom configuration (Quality of MP3, MP4, Directory of downloader folder)
+- Licensed:
+This source code is under MIT license
 
 *Copyright @ 2019 - ducmeit1*     
 

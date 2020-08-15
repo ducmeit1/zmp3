@@ -11,14 +11,13 @@ Tutorial for development this CLI at: https://medium.com/@ducmeit/make-a-great-d
 
 ## Pictures
 
-![](png/demo.png | width=200)
+<img src="png/demo.png" width="500" align="center">
 
 - Progress bar when downloading
 
-![](png/progress.png | width=200)
+<img src="png/progress.png" width="500" align="center">
 
 - Result after downloaded complete
 
-![](png/result.png | width=200)
-
+<img src="png/result.png" width="500" align="center">
 

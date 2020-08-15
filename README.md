@@ -1,9 +1,15 @@
-> This is open source project and has posted on Medium at: https://medium.com/@ducmeit/make-a-great-downloader-cli-by-cobra-viper-promptui-at-golang-f6408434cafa
+## Introduction
 
 zmp3 is a CLI tool helps you download highest quality of music and video on https://mp3.zing.vn for free
 
+Tutorial for development this CLI at: https://medium.com/@ducmeit/make-a-great-downloader-cli-by-cobra-viper-promptui-at-golang-f6408434cafa
+
+## Usages
+
 - Installing: `go install github.com/ducmeit1/zmp3`
 - Downloading at: `https://github.com/ducmeit1/zmp3/releases`
+
+## Features
 - CLI:
 ![Demo](png/demo.png)
 
@@ -47,9 +53,5 @@ zmp3 is a CLI tool helps you download highest quality of music and video on http
     - Download Song
     - Download Video
     - Set custom configuration (Quality of MP3, MP4, Directory of downloader folder)
-- Licensed:
-This source code is under MIT license
-
-*Copyright @ 2019 - ducmeit1*     
 
 
